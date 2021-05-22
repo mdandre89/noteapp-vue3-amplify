@@ -1,0 +1,7 @@
+{
+    "tableName": "amplifyVue3NotesDynamo",
+    "partitionKeyName": "userId",
+    "partitionKeyType": "S",
+    "sortKeyName": "notesId",
+    "sortKeyType": "S"
+}

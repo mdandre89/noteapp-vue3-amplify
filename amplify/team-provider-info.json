@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "noteappamplify24008e4a": {}
+      },
+      "function": {
+        "amplifyVue3NotesLambda": {
+          "deploymentBucketName": "amplify-noteappamplify-dev-203027-deployment",
+          "s3Key": "amplify-builds/amplifyVue3NotesLambda-7870636e673145754d6d-build.zip"
+        }
       }
     }
   }

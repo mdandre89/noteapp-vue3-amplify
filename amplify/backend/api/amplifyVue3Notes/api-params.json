@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/notes",
+      "lambdaFunction": "amplifyVue3NotesLambda",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/notes"
+    }
+  ],
+  "resourceName": "amplifyVue3Notes",
+  "apiName": "amplifyVue3Notes",
+  "functionArns": [
+    {
+      "lambdaFunction": "amplifyVue3NotesLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-noteappamplify-dev-203027-authRole",
+    "unAuthRoleName": "amplify-noteappamplify-dev-203027-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "amplifyVue3NotesLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
